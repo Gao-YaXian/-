@@ -8,35 +8,61 @@
     <style>
          body {
             background-color: #3A5C;
-            padding: 10px;
         }
 
-        a{
+        .a {
             color: white;
             padding: 10px;
+            text-align: center;
         }
 
-        b{
+        .b {
             color: red;
             padding: 10px;
+            text-decoration: underline;
         }
 
-        c{
-            color: deeppink;
-            padding: 10px;
+        .caidan {
+            text-decoration: none;
+            text-align: right;
+            font-size: 10px;
+            font-style: italic;
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline-block;
         }
+
+
+         .caidan:hover {
+            color: deeppink;
+            text-decoration: none;
+            text-indent: 1111px;
+             display: inline-block;
+             cursor: default;
+
+        }
+
+         p {
+             line-height: 3.3;
+             font-family: serif;
+             font-weight: bold;
+             background-color: aqua;
+         }
+
+         .editor {
+             text-align: right;
+         }
     </style>
 </head>
 <body>
 <h1 class="a">我是韩一冉</h1>
 <p>咕</p>
-<p><a href="咕/王.jpg" target="_blank">
-    <img src="咕/韩.jpg" alt="我是韩一冉" width="300" height="200">
-</a></p>
+<a href="/web/王.jpg" alt="我是韩一冉" title="我是韩一冉" target="_blank">
+    <img src="/web/韩.jpg" alt="我是韩一冉" width="300" height="200">
+</a>
 <p class="b"><b>点图片查看高清大图</b></p>
-<p class="c"><a href="https://www.bilibili.com/video/BV1Ek87zkEdE/?spm_id_from=333.1387.homepage.video_card.click&vd_source=47b946c79b1d7f4d8178c9b6118fba6a" target="_blank">
+<a class='caidan' href="https://www.bilibili.com/video/BV1Ek87zkEdE/?spm_id_from=333.1387.homepage.video_card.click&vd_source=47b946c79b1d7f4d8178c9b6118fba6a" target="_blank">
     彩蛋
-</a></p>
+</a>
+<p class="editor">editor：韩一冉</p>
 </body>
-
 </html>
